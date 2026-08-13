@@ -33,8 +33,16 @@ def get_student_by_id(student_id: int) -> Student:
 
 def update_student(student_id: int, student_data: StudentUpdate) -> Student :
     student=students.get(student_id)
+
+    if student is None:
+        raise StudentNotFoundException("دانشجو پیدا نشد.")
+    
     if student_data.student_number is not None:
-        duplicate=any(s.id !=student_id and s.student_number == student_data.student_number for s in students.values())
+        duplicate=any(
+            s.id !=student_id and
+            s.student_number == student_data.student_number
+            for s in students.values()
+        )
 
         if duplicate:
             raise InvalidDataException("شماره دانشجویی تکراری است.")
