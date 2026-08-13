@@ -1,0 +1,34 @@
+[
+    {
+        "id": 2,
+        "first_name": "Pary",
+        "last_name": "Pirdadeh",
+        "student_number": "40411415034",
+        "major": "Computer Engineering",
+        "selected_course_ids": []
+    },
+    {
+        "id": 4,
+        "first_name": "Mahshid",
+        "last_name": "Pirdadeh",
+        "student_number": "40411415033",
+        "major": "Computer Engineering",
+        "selected_course_ids": []
+    },
+    {
+        "id": 5,
+        "first_name": "Mahshid",
+        "last_name": "Pirdadeh",
+        "student_number": "40411415030",
+        "major": "Computer Engineering",
+        "selected_course_ids": []
+    },
+    {
+        "id": 6,
+        "first_name": "Negar",
+        "last_name": "Rahimi",
+        "student_number": "40411415120",
+        "major": "Computer Engineering",
+        "selected_course_ids": []
+    }
+]

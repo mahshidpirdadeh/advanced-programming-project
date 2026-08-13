@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "title": "Advanced Python Programming",
+        "code": "CS301",
+        "unit": 3,
+        "capacity": 30,
+        "professor_id": null,
+        "student_ids": []
+    }
+]

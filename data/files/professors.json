@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "first_name": "Elham",
+        "last_name": "Maghsudi",
+        "personal_code": "140232",
+        "department": "Physics",
+        "course_ids": []
+    },
+    {
+        "id": 4,
+        "first_name": "Sara",
+        "last_name": "Ahmadi",
+        "personal_code": "140460",
+        "department": "Computer",
+        "course_ids": []
+    }
+]
